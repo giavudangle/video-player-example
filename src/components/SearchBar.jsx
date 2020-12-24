@@ -5,9 +5,6 @@ export default class SearchBar extends React.Component{
   state = {
     term : '',
   }
-
- 
-
   _onInputChange = (e) => {
     this.setState({term:e.target.value});
   }
